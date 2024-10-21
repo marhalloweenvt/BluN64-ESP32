@@ -46,7 +46,35 @@ n64-blueretro/build/n64-control-blueretro.bin @ 0x110000
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## My pin assigment
+
+| ESP32 WROOM Name | Pin Number | Gamepad |
+| --- | --- | --- |
+| 6 | IO34 | Y1 |
+| 7 | IO35 | Y2 |
+| 8 | IO32 | X2 |
+| 9 | IO33 | X1 |
+| 10 | IO25 | L |
+| 11 | IO26 | Dpad Down |
+| 12 | IO27 | Dpad Left |
+| 13 | IO14 | Dpad Up |
+| 14 | IO12 | Dpad Right |
+| 16 | IO13 | Start |
+| 23 | IO15 | A |
+| 24 | IO2 | B |
+| 26 | IO4 | Z |
+| 27 | IO16 | R |
+| 28 | IO17 | LED |
+| 29 | IO5 | C-Up |
+| 30 | IO18 | C-Left |
+| 31 | IO9 | C-Right |
+| 33 | IO21 | C-Down |
+| 36 | IO22 | Home |
+| 37 | IO23 | ZR |
+
 ## Special thanks
+
+[JPZV](https://github.com/JPZV/BluN64-ESP32) - The Original Author of this for his awesome work
 
 [dpedu.io](https://dpedu.io/article/2015-03-11/nintendo-64-joystick-pinout-arduino) for his blog about N64 analogs with Arduino
 
